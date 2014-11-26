@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+    <head>
+        <style type="text/css">
+            @font-face{
+                font-family: Signa;
+                src: url("https://dl.dropbox.com/s/t0whku65t6yf77c/SignaPro-Book.otf?dl=0");
+            }
+
+            @font-face{
+                font-family: "Signa Extlight";
+                src: url("https://dl.dropbox.com/s/une4y8ztceo8qgl/SignaPro-Extlight.otf?dl=0");
+            }
+
+            #base{
+                width: 100%;
+                height: 595px;
+                padding: 16px 0;
+                background-color: rgba(236, 236, 236, 1);
+            }
+
+            #wrapper{
+                margin: 0 auto;
+                border-radius: 5px;
+                width: 597px;
+                height: 507px;
+                font: 14px Arial,Helvetica,sans-serif;
+                color: rgb(34,34,34); 
+                border: 1px solid rgba(208, 208, 208, 1);  
+                background: #fff url("https://dl.dropbox.com/s/105oiny9ervxv5a/logo-footer-main.png?dl=0") no-repeat right bottom;
+            }
+
+            #header{
+                margin: 0 20px;
+                height: 90px;
+                border-bottom: 2px solid rgba(240, 240, 240, 1);
+                background: url("https://dl.dropbox.com/s/q11xc9a975rc46m/logo-header.png?dl=0") no-repeat bottom left;
+            }
+
+            #event-box{
+                margin-top: 37px;
+                float: left;
+                margin-left: 384px;
+                padding-left: 38px;
+                width: 146px;
+                height: 19px;
+                box-sizing: padding-box;
+                border-left: 2px solid rgba(240, 240, 240, 1);
+            }
+
+            #event{
+                padding-left: 10px; 
+                margin-top: -5.5px;
+                width: 90px;
+                text-transform: capitalize;
+                font: 20px "Signa Extlight",Helvetica,sans-serif;
+                color: rgba(239, 21, 37, 1);             
+                line-height: 33px;
+                vertical-align: middle;
+            }
+
+            #content .header{
+                height: 80px;
+                margin-left: 30px; 
+            }
+
+            h1{
+                margin: 0;
+                padding: 0;
+                vertical-align: middle;
+                font: normal 26px Signa, Verdana, sans-serif;
+                color: rgba(239, 21, 37, 1);
+                line-height: 80px;
+                text-transform: uppercase;
+                letter-spacing: 1.07px;
+            }
+
+            #content{
+                background-color: rgba(245, 245, 245, 1);
+                height: 244px;
+                width: 557px;
+                margin: 32px 20px 0 20px;
+                border-radius: 5px;
+            }
+
+            #article{
+                float: left;
+            }
+
+            #main{
+                padding: 0;
+                margin: 0;
+                background-color: rgba(245, 245, 245, 1);
+                border-radius: 5px;
+                height: inherit;
+                width: 375px;    
+            }
+
+            #aside{
+                width: 174px;
+                height: 160px;
+                padding: 0;
+                padding-top: -200px;
+                float: right;
+                background-color: rgba(245, 245, 245, 1);
+                border-radius: 5px;
+            }
+
+            #aside img{
+                border: 2px solid rgba(239, 21, 37, 1);
+                border-radius: 50%;
+                height: 150px;
+                width: 150px;
+            }
+
+            #first-name,
+            #last-name,
+            #position{
+                display: block;
+                margin-left: 30px;
+                text-transform: uppercase;
+            }
+
+            #last-name{
+                margin-top: 15px;
+            }
+
+            #first-name{
+                margin-top: 5px;
+            }
+
+            #first-name>a,
+            #last-name>a
+            {
+                font: bold 38px Verdana, Helvetica, sans-serif;
+                color: rgba(42, 42, 42, 1);
+                line-height: 0.5;
+            }
+        
+            #last-name>a{
+                line-height: 0.7;
+            }
+
+            #position{
+                font: 22px Verdana, Helvetica, sans-serif;
+                color: rgba(142, 142, 142, 1);
+                line-height: 75px;
+            }
+
+            #footer{
+                height: 135px;    
+                line-height: 135px;
+                display: table;    
+            }
+
+            #wishes{
+                display: table-cell;
+                vertical-align: middle;
+                height: auto;
+                width: auto;
+                padding-left: 50px;
+                font: normal 18px Verdana, sans-serif;
+                color: rgba(43, 43, 43, 1);
+            }
+            
+            #wishes p{
+                padding: 0;
+                margin: 0;
+            }
+
+            #contacts{
+                width: 240px;
+                float: right;
+                margin-top: 28px;
+            }
+
+            #contacts span.type{
+                color: rgba(137, 137, 137, 1);
+                font: normal 12px Verdana, sans-serif;
+                margin-left: 48px;
+            }
+
+            #contacts span.value{
+                color: rgba(43, 43, 43, 1);
+                font: normal 12px Verdana, sans-serif;
+                margin-left: 48px;
+            }
+        </style>
+        <META charset="utf-8">
+    </head>
+    <body>
+    <div id="base">
+        <div id="wrapper">
+            <div id="header">
+                <div id="event-box">
+                    <h3 id="event">birthday</h3>
+                </div>
+            </div>
+            <div id="content">
+                <div class="header">
+                    <h1>happy birthday to</h1>
+                </div>
+                <div id="article">
+                    <div id="main">
+                        <span id="first-name"><a>oleksandr</a></span>
+                        <span id="last-name"><a>karasik</a></span>
+                        <span id="position">C++ engineer</span>
+                    </div>
+                </div>
+                <div id="aside">
+                        <img src="https://dl.dropbox.com/s/v6dxo5c3v18p0yy/photo.jpg?dl=0" alt="">
+                </div>
+            </div>
+            <div id="footer">
+                <div id="wishes">
+                    <p>Please, take the best wishes of joy, health<br/>
+                    and happiness from Cogniance team!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
